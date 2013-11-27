@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+#container {
+	background: url(trä.jpg);
+	border:2px solid;
+	max-width:900px;
+	margin:0 auto;
+	
+	}
+
+h1 { 
+	
+	font-family:"Courier New", Courier, monospace;
+	font-size:50px;
+	background-image: url("monster.jpg");
+}
+
+
+#nav {
+	background-color:2px #999999;
+	}
+
+	
+	
