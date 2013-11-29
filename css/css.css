@@ -44,9 +44,21 @@ q:before, q:after {
 }
 table {
 	border-collapse: collapse;
-	border-spacing: 0;
+	border:  3px #CCCCCC;
+	border-spacing: 1px;
 }
 
+tr {
+		border-collapse: collapse;
+	border: ridge 3px #666666;
+	border-spacing: 1px;
+}
+
+td {
+	border-collapse: collapse;
+	border:ridge 3px #666666;
+	border-spacing: 1px;
+}
 
 #container {
 	background: url(trä.jpg);
@@ -55,16 +67,24 @@ table {
 	margin:0 auto;
 	
 	
+	
 	}
 
 h1 { 
 	
 	font-family:"Courier New", Courier, monospace;
-	font-size:60px;
+	font-size:80px;
 	background-image: url("monster.jpg");
+	margin-left:10px;
+	margin-top:10px;
+	margin-right:10px;
+	
+	
 }
 
-
+ul, ol, li, dl, dt {
+	padding-left:15px;
+}
 
 
 nav {
@@ -73,7 +93,8 @@ nav {
 	bottom-border: none;
 	list-style:none;
 	float:left;
-	
+	margin-top:10px;
+	margin-left:10px;
 	
 	}
 	
@@ -107,7 +128,8 @@ nav .active a{
 	width:75%;
 	float:left;
 	color:#FFFFFF;
-	
+	margin-top:10px;
+	margin-left:10px;
 	
 	
 	
@@ -121,21 +143,38 @@ nav .active a{
 h2{
 	text-align:center;
 	font-size:30px;
+	margin-bottom:40px;
 }
 
 #footer {
 	clear:both;
 	width:auto;
+	background-color: #FFFFFF;
 	
 
 }
 
+#jonte {
+	float:right;
+	height:350px;
+	margin-right:5px;
+	margin-top:5px;
+	}
+
+#bario {
+	float:right;
+	height:350px;
+	margin-top:70px;
+}
 
 
+ul {
+	
+	
+	
+	
 
-
-
-
+}
 
 	
 	
