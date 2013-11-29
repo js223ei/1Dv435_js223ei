@@ -65,6 +65,7 @@ td {
 	border:2px solid;
 	max-width:1200px;
 	margin:0 auto;
+	border-radius:20px
 	
 	
 	
@@ -72,12 +73,15 @@ td {
 
 h1 { 
 	
-	font-family:"Courier New", Courier, monospace;
+	font-family: "Times New Roman", Times, serif;
 	font-size:80px;
-	background-image: url("monster.jpg");
+	background-image: url("monster2.jpg");
 	margin-left:10px;
 	margin-top:10px;
 	margin-right:10px;
+	border-radius: 20px;
+	color:#FFFFFF;
+	text-align:center;
 	
 	
 }
@@ -96,13 +100,16 @@ nav {
 	margin-top:10px;
 	margin-left:10px;
 	
-	}
 	
+	}
+nav ul, nav li {
+padding-left:0;
+}	
 nav li{
 	border-bottom:1px solid black;
 }
 
-nav li a{
+li a{
 	text-decoration:none;
 	background-color:#666666;
 	color:#FFFFFF;
@@ -112,7 +119,7 @@ nav li a{
 	padding:10px;
 }
 
-nav a:hover{
+li a:hover{
 	background-color:#CCCCCC;
 	color: #000000;
 	
@@ -123,6 +130,15 @@ nav .active a{
 
 }
 
+#labb {
+	width:200px;
+}
+#labb li{
+	border-bottom:1px solid black;
+	padding:0;
+	margin-left:15px;
+}
+
 #content {
 	background-color: rgba(204,204,204,0.3);
 	width:75%;
@@ -130,6 +146,8 @@ nav .active a{
 	color:#FFFFFF;
 	margin-top:10px;
 	margin-left:10px;
+	border-radius:20px;
+	margin-bottom:10px;
 	
 	
 	
@@ -150,6 +168,10 @@ h2{
 	clear:both;
 	width:auto;
 	background-color: #FFFFFF;
+	border-radius:10px;
+	margin-left:10px;
+	margin-right:10px;
+	margin-bottom:5px;
 	
 
 }
@@ -168,13 +190,12 @@ h2{
 }
 
 
-ul {
+
 	
 	
 	
 	
 
-}
 
 	
 	
