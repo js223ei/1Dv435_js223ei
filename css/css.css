@@ -191,7 +191,25 @@ h2{
 
 
 
-	
+@media print {
+ 
+
+nav {
+	display:none;}
+
+#container {
+	border:none;}
+
+
+
+
+a:link:after{content:"["attr(href)"]";}
+
+#labb {
+	display:none;}
+
+
+}	
 	
 	
 	
