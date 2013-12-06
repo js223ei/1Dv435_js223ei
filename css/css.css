@@ -107,6 +107,7 @@ padding-left:0;
 }	
 nav li{
 	border-bottom:1px solid black;
+	
 }
 
 li a{
@@ -117,6 +118,7 @@ li a{
 	font-weight: bold;
 	display:block;
 	padding:10px;
+	
 }
 
 li a:hover{
@@ -127,7 +129,7 @@ li a:hover{
 
 nav .active a{
 	background-color: #999999;
-
+	
 }
 
 #labb {
@@ -187,6 +189,71 @@ h2{
 	float:right;
 	height:350px;
 	margin-top:70px;
+}
+
+nav ul li a {
+	background-image: url("sprite.png");
+	background-repeat:no-repeat;
+	text-indent:40px;
+	
+
+}
+
+#home {
+	background-position:0 -40px;
+}
+
+#home:hover {
+	background-position:0 8px;
+}
+
+a#homeactive {
+	background-position:0 8px;
+}
+
+#lab {
+	background-position:0 -135px;
+	
+}
+
+#lab:hover {
+	background-position:0 -87px;
+	
+}
+
+a#labactive {
+	background-position:0 -87px;
+}
+
+
+#pres {
+	background-position:0 -235px;
+
+}
+
+#pres:hover {
+	background-position:0 -187px;
+
+}
+
+a#presactive {
+	background-position:0 -187px;
+}
+
+
+#kontakt {
+	background-position:0 -330px;
+
+}
+
+
+#kontakt:hover {
+	background-position:0 -282px;
+
+}
+
+a#kontaktactive {
+	background-position:0 -282px;
 }
 
 
