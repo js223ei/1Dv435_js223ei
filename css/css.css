@@ -256,8 +256,19 @@ a#kontaktactive {
 	background-position:0 -282px;
 }
 
+/* java labb2*/
 
+#knapp {
+	
+}
 
+.show {
+	display:block;
+}
+.hide {
+	display:none;
+		
+}
 @media print {
  
 
