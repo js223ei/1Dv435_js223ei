@@ -15,7 +15,7 @@ function omvandlare (inneholl) {
  
  	if(isNaN(inneholl)) {
  
- 		resultat.innerHTML = "<p> Endast siffror tack !</p>"+ resultat.innerHTML; alert("sdf");
+ 		resultat.innerHTML = "<p> Endast siffror tack !</p>"+ resultat.innerHTML; 
  }
  	
  	else if (inneholl >0) {

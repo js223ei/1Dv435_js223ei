@@ -186,9 +186,8 @@ h2{
 	}
 
 #bario {
-	float:right;
-	height:350px;
-	margin-top:70px;
+
+	width:100%;
 }
 
 nav ul li a {
@@ -275,7 +274,16 @@ a#kontaktactive {
 	
 }	
 	
+
+#bario1 {
+	width:400px;
+	height:400px;
+	float:right;
+	height:350px;
+	margin-top:70px;
+	overflow:hidden;
 	
+}
 
 }
 @media print {
