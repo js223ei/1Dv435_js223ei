@@ -5,7 +5,7 @@
  	
 	
 	
- 	var bilder = ['../../../Grafiska/mot/1.png', '../../../Grafiska/mot/2.png', '../../../Grafiska/mot/3.png', '../../../Grafiska/mot/4.png', '../../../Grafiska/mot/5.png', '../../../Grafiska/mot/6.png', '../../../Grafiska/mot/7.png', '../../../Grafiska/mot/8.png', '../../../Grafiska/mot/9.png', '../../../Grafiska/mot/10.png', '../../../Grafiska/mot/11.png', '../../../Grafiska/mot/12.png', '../../../Grafiska/mot/13.png', '../../../Grafiska/mot/14.png', '../../../Grafiska/mot/15.png', '../../../Grafiska/mot/16.png' ]
+ 	var bilder = ['pages/pics/1.png','pages/pics/2.png', 'pages/pics/3.png', 'pages/pics/4.png', 'pages/pics/5.png', 'pages/pics/6.png', 'pages/pics/7.png', 'pages/pics/8.png', 'pages/pics/9.png', 'pages/pics/10.png', 'pages/pics/11.png', 'pages/pics/12.png', 'pages/pics/13.png', 'pages/pics/14.png', 'pages/pics/15.png', 'pages/pics/16.png'  ]
 	
 	var counter = 0;
 	
